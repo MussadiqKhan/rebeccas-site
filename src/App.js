@@ -1,25 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import "./App.css";
+import Google from "./components/google";
+import Menu from "./components/menu";
+import Clynx from "./components/clynx";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="">
+        <header className="App-header">
+          <Switch>
+            <Route exact path="/clynx" component={Clynx} />
+            <Route exact path="/google" component={Google} />
+          </Switch>{" "}
+        </header>
+      </div>
+    </Router>
   );
 }
 
