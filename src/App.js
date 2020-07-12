@@ -1,8 +1,7 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Google from "./components/google";
-import Menu from "./components/menu";
 import Clynx from "./components/clynx";
 
 function App() {

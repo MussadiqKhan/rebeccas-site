@@ -2,7 +2,6 @@ import React from "react";
 import Header from "./header";
 import mac from "../images/mac.png";
 import macbook from "../images/macbook.png";
-import athlete from "../images/athlete.png";
 import Menu from "./menu";
 import Challenge from "./challenge";
 import Research from "./research";
