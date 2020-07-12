@@ -114,6 +114,7 @@ const Clynx = () => {
             frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
+            title="video"
           ></iframe>
         </div>
       </div>

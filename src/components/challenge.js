@@ -29,14 +29,24 @@ const Challenge = () => {
         </p>
         <div className="stats">
           <div className="stat1">
-            <img src={stat2} style={{ marginBottom: "40px" }} width="190" />
+            <img
+              src={stat2}
+              style={{ marginBottom: "40px" }}
+              width="190"
+              alt="stats"
+            />
             <p>
               Half of American adults develop a musculoskeletal injury that
               lasts longer than three months
             </p>
           </div>
           <div className="stat1">
-            <img src={stat1} style={{ marginBottom: "50px" }} width="310" />
+            <img
+              src={stat1}
+              style={{ marginBottom: "50px" }}
+              width="310"
+              alt="stats"
+            />
             <p>
               of physical therapy patients do not fully adhere to their plans of
               care
