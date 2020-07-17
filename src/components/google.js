@@ -19,7 +19,14 @@ const Google = () => {
               <p className="top-text">INTERACTION DESIGN — SUMMER 2019</p>
               <h1>Google Design</h1>
               <h1>Internship</h1>
-              <p className="main-text">
+              <p
+                className="main-text"
+                style={{
+                  fontFamily: "TT Norms",
+                  fontWeight: "300",
+                  fontStyle: "normal",
+                }}
+              >
                 In the summer of 2019, I was fortunate to be a User Experience
                 Design Intern at Google on YouTube’s Social Distribution team.
                 Within the span of my 13-week internship, I had the opportunity
@@ -28,14 +35,32 @@ const Google = () => {
                 projects, but below I’ve shared my high-level process and
                 learnings!
               </p>
-              <button>1-WK DESIGN CHALLENGE</button>
+              <button
+                style={{
+                  fontFamily: "Galano Grotesque",
+                  fontStyle: "normal",
+                }}
+              >
+                1-WK DESIGN CHALLENGE
+              </button>
             </div>
             <div className="text-2">
-              <p style={{ marginBottom: "10px" }}>MY ROLE</p>
+              <p
+                style={{
+                  marginBottom: "10px",
+                  fontFamily: "Galano Grotesque",
+                  fontStyle: "normal",
+                }}
+              >
+                MY ROLE
+              </p>
               <p
                 style={{
                   lineHeight: "170%",
                   color: "rgba(255, 255, 255, 0.8)",
+                  fontFamily: "TT Norms",
+                  fontWeight: "300",
+                  fontStyle: "normal",
                 }}
               >
                 UX Design Intern–competitive audit,
@@ -45,11 +70,21 @@ const Google = () => {
                   lineHeight: "170%",
                   marginBottom: "10px",
                   color: "rgba(255, 255, 255, 0.8)",
+                  fontFamily: "TT Norms",
+                  fontWeight: "300",
+                  fontStyle: "normal",
                 }}
               >
                 usability testing, product strategy
               </p>
-              <p style={{ marginBottom: "10px", marginTop: "10px" }}>
+              <p
+                style={{
+                  marginBottom: "10px",
+                  marginTop: "10px",
+                  fontFamily: "Galano Grotesque",
+                  fontStyle: "normal",
+                }}
+              >
                 MY CONTRIBUTIONS
               </p>
               <ul>

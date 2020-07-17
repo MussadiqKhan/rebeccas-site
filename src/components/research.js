@@ -68,6 +68,9 @@ const Research = () => {
               fontSize: "14px",
               lineHeight: "140%",
               color: "#989898",
+              fontFamily: "Galano Grotesque",
+              fontWeight: "300",
+              fontStyle: "normal",
             }}
           >
             LUCA, AN ONGOING PHYSICAL THERAPY PATIENT INTERVIEWED OUTSIDE A

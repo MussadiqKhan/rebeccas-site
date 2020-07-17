@@ -1,4 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@font-face {
+  src: url(./Font/GalanoGrotesque-ExtraLight.ttf);
+  src: url(./Font/GalanoGrotesque-Light.ttf);
+  src: url(./Font/GalanoGrotesque-Medium.ttf);
+  src: url(./Font/GalanoGrotesque-Thin.ttf);
+  src: url(./Font/GalanoGrotesqueAlt-SemiBold.ttf);
+  font-family: "Galano Grotesque";
+}
+@font-face {
+  src: url(./Font/TT-Norms-Regular.ttf);
+  src: url(./Font/TT-Norms-Medium.ttf);
+
+  font-family: "TT Norms";
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -44,6 +58,9 @@ a {
   font-size: 14px;
   line-height: 240%;
   letter-spacing: 0.03em;
+  font-family: "TT Norms";
+  font-style: normal;
+  font-weight: bold;
 }
 ul li {
   list-style: none;
@@ -75,6 +92,9 @@ ul li {
   color: #a9a9a9;
   margin-top: 120px;
   margin-bottom: 20px;
+  font-family: "Galano Grotesque";
+  font-style: normal;
+  font-weight: 500;
 }
 .main-text {
   font-weight: 300;
@@ -86,12 +106,14 @@ ul li {
   color: rgba(255, 255, 255, 0.8);
 }
 .text-1 h1 {
-  font-weight: bold;
   font-size: 40px;
   line-height: 140%;
   letter-spacing: 0.04em;
   color: #ffffff;
   text-align: left;
+  font-family: Galano Grotesque;
+  font-style: normal;
+  font-weight: bold;
 }
 .text-1 button {
   font-weight: 500;
@@ -127,12 +149,16 @@ ul li {
   margin-right: 30px;
 }
 .text-2 ul li {
+  font-family: TT Norms;
+  font-style: normal;
+  font-weight: 300;
   max-width: 279px;
   font-weight: 300;
   font-size: 14px;
   line-height: 170%;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.8);
+  list-style: circle;
 }
 .text-3 {
   margin-top: 340px;
@@ -146,10 +172,14 @@ ul li {
 }
 .text-3 ul li {
   font-weight: normal;
+  font-family: TT Norms;
+  font-style: normal;
+  font-weight: 300;
   font-size: 14px;
   line-height: 170%;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.8) !important;
+  list-style: circle;
 }
 .image-gallery {
   display: flex;
@@ -172,6 +202,9 @@ ul li {
   margin-left: 200px;
 }
 .overview-text h2 {
+  font-family: Galano Grotesque;
+  font-style: normal;
+  font-weight: 600;
   font-style: normal;
   font-weight: 600;
   font-size: 30px;
@@ -187,6 +220,9 @@ ul li {
   color: #323232;
   max-width: 540px;
   margin-top: 40px;
+  font-family: TT Norms;
+  font-style: normal;
+  font-weight: 300;
 }
 .grey-background {
   background: #c4c4c4;
@@ -202,6 +238,9 @@ ul li {
   margin-right: 100px;
 }
 .overview-sections h4 {
+  font-family: Galano Grotesque;
+  font-style: normal;
+  font-weight: 500;
   font-weight: 500;
   font-size: 14px;
   line-height: 140%;
@@ -209,6 +248,9 @@ ul li {
   margin-bottom: 10px;
 }
 .overview-sections p {
+  font-family: TT Norms;
+  font-style: normal;
+  font-weight: 300;
   font-weight: 300;
   font-size: 14px;
   line-height: 170%;
@@ -230,10 +272,18 @@ ul li {
 .learning-1 {
   margin-right: 170px;
 }
+.learning-1 h2 {
+  font-family: Galano Grotesque;
+  font-style: normal;
+  font-weight: 600;
+}
 .learning-2 {
   margin-bottom: 20px;
 }
 .learning-2 h3 {
+  font-family: Galano Grotesque;
+  font-style: normal;
+  font-weight: 500;
   font-weight: 500;
   font-size: 14px;
   line-height: 140%;
@@ -243,7 +293,9 @@ ul li {
 }
 .learning-2 p {
   max-width: 300px;
-
+  font-family: TT Norms;
+  font-style: normal;
+  font-weight: 300;
   font-weight: 300;
   font-size: 14px;
   line-height: 170%;
@@ -302,6 +354,8 @@ ul li {
   margin-top: 150px;
 }
 .challenge-text h3 {
+  font-family: Galano Grotesque;
+  font-style: normal;
   font-weight: 600;
   font-size: 30px;
   line-height: 140%;
@@ -313,6 +367,8 @@ ul li {
 }
 
 .challenge-text p {
+  font-family: TT Norms;
+  font-style: normal;
   font-weight: 300;
   font-size: 14px;
   line-height: 170%;
@@ -333,6 +389,9 @@ ul li {
   flex-direction: column;
 }
 .stat1 p {
+  font-weight: normal;
+  font-family: Galano Grotesque;
+  font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 140%;
@@ -356,8 +415,14 @@ ul li {
   letter-spacing: 0.03em;
   margin-bottom: 32px;
   color: #303030;
+  font-family: Galano Grotesque;
+  font-style: normal;
+  font-weight: 600;
 }
 .research-1 p {
+  font-family: TT Norms;
+  font-style: normal;
+  font-weight: 300;
   font-weight: 300;
   font-size: 14px;
   line-height: 170%;
@@ -401,6 +466,9 @@ ul li {
   letter-spacing: 0.08em;
   color: #989898;
   margin-bottom: 20px;
+  font-family: Galano Grotesque;
+  font-style: normal;
+  font-weight: normal;
 }
 .p2 {
   font-weight: 300;
@@ -408,6 +476,9 @@ ul li {
   line-height: 150%;
   color: #3d3d3d;
   margin-bottom: 10px;
+  font-family: Galano Grotesque;
+  font-style: normal;
+  font-weight: 300;
 }
 .research-3 {
   display: flex;
@@ -421,6 +492,9 @@ ul li {
   line-height: 170%;
   max-width: 550px;
   color: #242424;
+  font-family: TT Norms;
+  font-style: normal;
+  font-weight: 300;
 }
 .research-4 {
   display: flex;
@@ -434,7 +508,9 @@ ul li {
   font-weight: 300;
   font-size: 25px;
   line-height: 190%;
-  /* or 47px */
+  font-family: Galano Grotesque;
+  font-style: normal;
+  font-weight: 300;
 
   text-align: center;
 
@@ -461,6 +537,9 @@ ul li {
   margin-bottom: 32px;
   letter-spacing: 0.03em;
   color: #303030;
+  font-family: Galano Grotesque;
+  font-style: normal;
+  font-weight: 600;
 }
 .design p,
 .design-2 p {
@@ -469,6 +548,9 @@ ul li {
   font-size: 14px;
   line-height: 170%;
   color: #242424;
+  font-family: TT Norms;
+  font-style: normal;
+  font-weight: 300;
 }
 .design img {
   max-width: 100%;
@@ -518,14 +600,19 @@ hr {
   line-height: 170.94%;
   letter-spacing: 0.06em;
   color: #4ba1ca;
+  font-family: Galano Grotesque;
+  font-style: normal;
+  font-weight: 500;
 }
 .interaction-text p {
-  font-weight: 300;
   font-size: 14px;
   line-height: 140%;
   margin-top: 15px;
   margin-bottom: 30px;
   color: #242424;
+  font-family: TT Norms;
+  font-style: normal;
+  font-weight: 300;
 }
 
 .future {
@@ -541,6 +628,9 @@ hr {
   line-height: 170%;
   color: #242424;
   max-width: 550px;
+  font-family: TT Norms;
+  font-style: normal;
+  font-weight: 300;
 }
 .future h3 {
   font-weight: 600;
@@ -549,6 +639,9 @@ hr {
   letter-spacing: 0.03em;
   margin-bottom: 32px;
   color: #303030;
+  font-family: Galano Grotesque;
+  font-style: normal;
+  font-weight: 600;
 }
 @media screen and (max-width: 1100px) {
   .google-sub,

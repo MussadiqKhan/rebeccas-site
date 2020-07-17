@@ -29,33 +29,79 @@ const Clynx = () => {
               <div className="text-1">
                 <p className="top-text">INTERACTION DESIGN ・ FALL 2018</p>
                 <h1>Clynx Dashboard</h1>
-                <p className="main-text" style={{ marginTop: "48px" }}>
+                <p
+                  className="main-text"
+                  style={{
+                    marginTop: "48px",
+                    fontFamily: "TT Norms",
+                    fontWeight: "300",
+                    fontStyle: "normal",
+                  }}
+                >
                   Clynx is a healthcare technology startup I co-founded with
                   four team members based in Lisbon, Portugal. Our solution
                   utilizes gamification and digitalization to help physical
                   therapy patients recover faster.
                 </p>
-                <p className="main-text" style={{ marginTop: "48px" }}>
+                <p
+                  className="main-text"
+                  style={{
+                    marginTop: "48px",
+                    fontFamily: "TT Norms",
+                    fontWeight: "300",
+                    fontStyle: "normal",
+                  }}
+                >
                   I designed the <b>desktop MVP </b> for the dashboard
                   experience to help patients perform exercises and physicians
                   to monitor therapy progress.
                 </p>
-                <button>CLYNX LANDING PAGE </button>
+                <button
+                  style={{
+                    fontFamily: "Galano Grotesque",
+                    fontStyle: "normal",
+                  }}
+                >
+                  CLYNX LANDING PAGE{" "}
+                </button>
               </div>
-              <div className="text-2" style={{ marginTop: "260px" }}>
-                <p style={{ marginBottom: "10px" }}>MY ROLE</p>
+              <div
+                className="text-2"
+                style={{
+                  marginTop: "260px",
+                }}
+              >
+                <p
+                  style={{
+                    marginBottom: "10px",
+                    fontFamily: "Galano Grotesque",
+                    fontStyle: "normal",
+                  }}
+                >
+                  MY ROLE
+                </p>
                 <p
                   style={{
                     lineHeight: "170%",
                     color: "rgba(255, 255, 255, 0.8)",
                     maxWidth: "270px",
+                    fontFamily: "TT Norms",
+                    fontWeight: "300",
+                    fontStyle: "normal",
                   }}
                 >
                   Solo UX Designer–discovery, user research, competitive audit,
                   testing, feature prioritization, product strategy
                 </p>
 
-                <p style={{ marginBottom: "10px", marginTop: "40px" }}>
+                <p
+                  style={{
+                    marginBottom: "10px",
+                    marginTop: "40px",
+                    fontFamily: "Galano Grotesque",
+                    fontStyle: "normal",
+                  }}
+                >
                   MY CONTRIBUTIONS
                 </p>
                 <p
@@ -64,6 +110,9 @@ const Clynx = () => {
                     marginBottom: "10px",
                     color: "rgba(255, 255, 255, 0.8)",
                     maxWidth: "270px",
+                    fontFamily: "TT Norms",
+                    fontWeight: "300",
+                    fontStyle: "normal",
                   }}
                 >
                   Led user research with 20+ interviews Designed entire
@@ -72,19 +121,37 @@ const Clynx = () => {
                 </p>
               </div>
               <div className="text-3" style={{ marginTop: "260px" }}>
-                <p style={{ marginBottom: "10px" }}>TEAM</p>
+                <p
+                  style={{
+                    marginBottom: "10px",
+                    fontFamily: "Galano Grotesque",
+                    fontStyle: "normal",
+                  }}
+                >
+                  TEAM
+                </p>
                 <p
                   style={{
                     lineHeight: "170%",
                     marginBottom: "10px",
                     color: "rgba(255, 255, 255, 0.8)",
                     maxWidth: "270px",
+                    fontFamily: "TT Norms",
+                    fontWeight: "300",
+                    fontStyle: "normal",
                   }}
                 >
                   Joana Pinto, Product Manager Henrique Carvalho, Game Engineer
                   Gonçalo Chambel, Game Engineer João Ramiro, Software Engineer
                 </p>
-                <p style={{ marginBottom: "10px", marginTop: "60px" }}>
+                <p
+                  style={{
+                    marginBottom: "10px",
+                    marginTop: "60px",
+                    fontFamily: "Galano Grotesque",
+                    fontStyle: "normal",
+                  }}
+                >
                   IMPACT
                 </p>
                 <p
@@ -93,6 +160,9 @@ const Clynx = () => {
                     marginBottom: "10px",
                     color: "rgba(255, 255, 255, 0.8)",
                     maxWidth: "270px",
+                    fontFamily: "TT Norms",
+                    fontWeight: "300",
+                    fontStyle: "normal",
                   }}
                 >
                   Partnership with CUF, largest hospital chain in PT Grant of
@@ -127,6 +197,9 @@ const Clynx = () => {
                 color: "#FFFFFF",
                 fontSize: "15px",
                 lineHeight: "140%",
+                fontFamily: "Galano Grotesque",
+                fontWeight: "300",
+                fontStyle: "normal",
               }}
             >
               PROBLEM
@@ -138,6 +211,9 @@ const Clynx = () => {
                 color: "#FFFFFF",
                 fontSize: "25px",
                 lineHeight: "140%",
+                fontFamily: "Galano Grotesque",
+                fontWeight: "300",
+                fontStyle: "normal",
               }}
             >
               In physical therapy, the recovery process requires home exercises
@@ -151,6 +227,9 @@ const Clynx = () => {
                 color: "#FFFFFF",
                 fontSize: "25px",
                 lineHeight: "140%",
+                fontFamily: "Galano Grotesque",
+                fontWeight: "300",
+                fontStyle: "normal",
               }}
             >
               Patients who perform home exercises often perform exercises
@@ -168,9 +247,11 @@ const Clynx = () => {
               marginLeft: "32px",
               marginTop: "160px",
               maxWidth: "800px",
-              color: "grey",
+              color: "#242424",
               fontSize: "40px",
-              fontWeight: "300px",
+              fontFamily: "Galano Grotesque",
+              fontWeight: "300",
+              fontStyle: "normal",
               lineHeight: "140%",
             }}
           >

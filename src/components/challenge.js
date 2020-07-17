@@ -23,6 +23,9 @@ const Challenge = () => {
             lineHeight: "20",
             letterSpacing: "0.08em",
             color: "#989898",
+            fontFamily: "Galano Grotesque",
+            fontWeight: "300",
+            fontStyle: "normal",
           }}
         >
           U.S. BONE AND JOINT INITIATIVE, 2015
