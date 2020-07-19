@@ -46,13 +46,14 @@ const Research = () => {
         </div>
         <div className="research-3">
           <p>
-            Although the end-user is a patient, our subsequent 6+ interviews
-            with physicians heightened the critical role each play for a
-            patient's smooth recovery. We found specific stages in the recovery
-            progress, including the diagnosis, and injury severity, to require
-            the in-person expertise of a physician. This fundamental
+            Although the end-user is a patient, our subsequent <b>6+</b>{" "}
+            interviews with physicians heightened the critical role each play
+            for a patient's smooth recovery. We found specific stages in the
+            recovery progress, including the diagnosis, and injury severity, to
+            require the in-person expertise of a physician. This fundamental
             understanding not only informed my design process for the MVP but
-            later informed Clynx's business model from a B2C to a B2B2C model.
+            later informed Clynx's business model from a B2C to a{" "}
+            <b>B2B2C model</b>.
           </p>
         </div>
 

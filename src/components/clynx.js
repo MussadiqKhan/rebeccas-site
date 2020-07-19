@@ -36,6 +36,9 @@ const Clynx = () => {
                     fontFamily: "TT Norms",
                     fontWeight: "300",
                     fontStyle: "normal",
+                    lineHeight: "170%",
+                    letterSpacing: "0.03em",
+                    fontSize: "14px",
                   }}
                 >
                   Clynx is a healthcare technology startup I co-founded with
@@ -50,6 +53,9 @@ const Clynx = () => {
                     fontFamily: "TT Norms",
                     fontWeight: "300",
                     fontStyle: "normal",
+                    lineHeight: "170%",
+                    letterSpacing: "0.03em",
+                    fontSize: "14px",
                   }}
                 >
                   I designed the <b>desktop MVP </b> for the dashboard
@@ -88,6 +94,9 @@ const Clynx = () => {
                     fontFamily: "TT Norms",
                     fontWeight: "300",
                     fontStyle: "normal",
+                    lineHeight: "170%",
+                    letterSpacing: "0.03em",
+                    fontSize: "14px",
                   }}
                 >
                   Solo UX Designer–discovery, user research, competitive audit,
@@ -113,6 +122,9 @@ const Clynx = () => {
                     fontFamily: "TT Norms",
                     fontWeight: "300",
                     fontStyle: "normal",
+                    lineHeight: "170%",
+                    letterSpacing: "0.03em",
+                    fontSize: "14px",
                   }}
                 >
                   Led user research with 20+ interviews Designed entire
@@ -139,6 +151,9 @@ const Clynx = () => {
                     fontFamily: "TT Norms",
                     fontWeight: "300",
                     fontStyle: "normal",
+                    lineHeight: "170%",
+                    letterSpacing: "0.03em",
+                    fontSize: "14px",
                   }}
                 >
                   Joana Pinto, Product Manager Henrique Carvalho, Game Engineer
@@ -163,6 +178,9 @@ const Clynx = () => {
                     fontFamily: "TT Norms",
                     fontWeight: "300",
                     fontStyle: "normal",
+                    lineHeight: "170%",
+                    letterSpacing: "0.03em",
+                    fontSize: "14px",
                   }}
                 >
                   Partnership with CUF, largest hospital chain in PT Grant of
@@ -212,7 +230,7 @@ const Clynx = () => {
                 fontSize: "25px",
                 lineHeight: "140%",
                 fontFamily: "Galano Grotesque",
-                fontWeight: "300",
+                fontWeight: "200",
                 fontStyle: "normal",
               }}
             >
@@ -228,12 +246,13 @@ const Clynx = () => {
                 fontSize: "25px",
                 lineHeight: "140%",
                 fontFamily: "Galano Grotesque",
-                fontWeight: "300",
+                fontWeight: "200",
                 fontStyle: "normal",
               }}
             >
-              Patients who perform home exercises often perform exercises
-              incorrectly and over time lack motivation. Physical therapists
+              <b>Patients</b> who perform home exercises often perform exercises
+              incorrectly and over time lack motivation.{" "}
+              <b>Physical therapists</b>
               struggle to help patients who miss sessions and fail to perform
               the exercise recommendations.
             </p>
@@ -250,8 +269,7 @@ const Clynx = () => {
               color: "#242424",
               fontSize: "40px",
               fontFamily: "Galano Grotesque",
-              fontWeight: "300",
-              fontStyle: "normal",
+              fontWeight: "200",
               lineHeight: "140%",
             }}
           >

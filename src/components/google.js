@@ -25,6 +25,9 @@ const Google = () => {
                   fontFamily: "TT Norms",
                   fontWeight: "300",
                   fontStyle: "normal",
+                  lineHeight: "170%",
+                  letterSpacing: "0.03em",
+                  fontSize: "14px",
                 }}
               >
                 In the summer of 2019, I was fortunate to be a User Experience
@@ -61,6 +64,9 @@ const Google = () => {
                   fontFamily: "TT Norms",
                   fontWeight: "300",
                   fontStyle: "normal",
+                  lineHeight: "170%",
+                  letterSpacing: "0.03em",
+                  fontSize: "14px",
                 }}
               >
                 UX Design Intern–competitive audit,
@@ -73,6 +79,9 @@ const Google = () => {
                   fontFamily: "TT Norms",
                   fontWeight: "300",
                   fontStyle: "normal",
+                  lineHeight: "170%",
+                  letterSpacing: "0.03em",
+                  fontSize: "14px",
                 }}
               >
                 usability testing, product strategy

@@ -1,16 +1,43 @@
 @font-face {
   src: url(./Font/GalanoGrotesque-ExtraLight.ttf);
-  src: url(./Font/GalanoGrotesque-Light.ttf);
-  src: url(./Font/GalanoGrotesque-Medium.ttf);
   src: url(./Font/GalanoGrotesque-Thin.ttf);
-  src: url(./Font/GalanoGrotesqueAlt-SemiBold.ttf);
   font-family: "Galano Grotesque";
 }
 @font-face {
-  src: url(./Font/TT-Norms-Regular.ttf);
-  src: url(./Font/TT-Norms-Medium.ttf);
-
+  src: url(./Font/GalanoGrotesqueAlt-SemiBold.ttf);
+  font-family: "Galano Grotesque";
+  font-weight: bold;
+}
+@font-face {
+  src: url(./Font/GalanoGrotesque-Thin.ttf);
+  font-family: "Galano Grotesque";
+  font-weight: 200;
+}
+@font-face {
+  src: url(./Font/GalanoGrotesque-Light.ttf);
+  font-family: "Galano Grotesque";
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  src: url(./Font/GalanoGrotesque-Light.ttf);
+  font-family: "Galano Grotesque";
+  font-weight: normal;
+}
+@font-face {
+  src: url(./Font/TypeType-TT-Norms-Light.ttf);
   font-family: "TT Norms";
+  font-weight: 300;
+}
+@font-face {
+  src: url(./Font/TT-Norms-Medium.ttf);
+  font-family: "TT Norms";
+  font-weight: 500;
+}
+@font-face {
+  src: url(./Font/TypeType-TT-Norms-Bold.ttf);
+  font-family: "TT Norms";
+  font-weight: bold;
 }
 
 * {
@@ -111,8 +138,8 @@ ul li {
   letter-spacing: 0.04em;
   color: #ffffff;
   text-align: left;
-  font-family: Galano Grotesque;
-  font-style: normal;
+  font-family: "Galano Grotesque";
+  font-style: bold;
   font-weight: bold;
 }
 .text-1 button {
@@ -550,7 +577,6 @@ ul li {
   color: #242424;
   font-family: TT Norms;
   font-style: normal;
-  font-weight: 300;
 }
 .design img {
   max-width: 100%;

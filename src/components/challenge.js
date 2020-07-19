@@ -24,7 +24,7 @@ const Challenge = () => {
             letterSpacing: "0.08em",
             color: "#989898",
             fontFamily: "Galano Grotesque",
-            fontWeight: "300",
+            fontWeight: "normal",
             fontStyle: "normal",
           }}
         >
