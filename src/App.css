@@ -9,14 +9,14 @@
   font-weight: bold;
 }
 @font-face {
-  src: url(./Font/GalanoGrotesque-Thin.ttf);
+  src: url(./Font/GalanoGrotesque-Light.ttf);
   font-family: "Galano Grotesque";
   font-weight: 300;
 }
 @font-face {
   src: url(./Font/GalanoGrotesque-Medium.ttf);
   font-family: "Galano Grotesque";
-  font-weight: normal;
+  font-weight: 500;
 }
 /* @font-face {
   src: url(./Font/GalanoGrotesque-Light.ttf);
@@ -246,7 +246,6 @@ ul li {
   margin-top: 160px;
 }
 .overview-text p {
-  font-weight: 300;
   font-size: 14px;
   line-height: 170%;
   color: #323232;
@@ -335,11 +334,7 @@ ul li {
 
   color: #3d3d3d;
 }
-.Overview,
-.Learning {
-  text-decoration: line-through;
-  color: black;
-}
+
 .image {
   position: absolute;
   top: 78%;
@@ -454,7 +449,7 @@ ul li {
 .research-1 p {
   font-family: TT Norms;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 300;
   font-size: 14px;
   line-height: 170%;
   max-width: 550px;
@@ -508,7 +503,6 @@ ul li {
   color: #3d3d3d;
   margin-bottom: 10px;
   font-family: Galano Grotesque;
-  font-style: normal;
   font-weight: 300;
 }
 .research-3 {
@@ -524,7 +518,6 @@ ul li {
   max-width: 550px;
   color: #242424;
   font-family: TT Norms;
-  font-style: normal;
   font-weight: 300;
 }
 .research-4 {
@@ -540,8 +533,6 @@ ul li {
   font-size: 25px;
   line-height: 190%;
   font-family: Galano Grotesque;
-  font-style: normal;
-  font-weight: 300;
 
   text-align: center;
 
@@ -580,9 +571,9 @@ ul li {
   line-height: 170%;
   color: #242424;
   font-family: TT Norms;
-  font-style: normal;
 }
-.design img {
+.design img,
+.design-2 img {
   max-width: 100%;
   margin-top: 30px;
 }
@@ -631,8 +622,6 @@ hr {
   letter-spacing: 0.06em;
   color: #4ba1ca;
   font-family: Galano Grotesque;
-  font-style: normal;
-  font-weight: 500;
 }
 .interaction-text p {
   font-size: 14px;

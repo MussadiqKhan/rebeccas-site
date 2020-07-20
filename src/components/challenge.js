@@ -4,7 +4,7 @@ import stat2 from "../images/stats2.png";
 
 const Challenge = () => {
   return (
-    <div id="Define">
+    <div>
       <div className="container">
         <div className="challenge-text">
           <h3>The Challenge</h3>

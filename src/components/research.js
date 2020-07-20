@@ -70,7 +70,7 @@ const Research = () => {
               lineHeight: "140%",
               color: "#989898",
               fontFamily: "Galano Grotesque",
-              fontWeight: "300",
+              fontWeight: "normal",
               fontStyle: "normal",
             }}
           >

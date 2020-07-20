@@ -25,7 +25,11 @@ const Clynx = () => {
             ]}
           />
           <div className="container">
-            <div className="google-sub" style={{ paddingBottom: "20%" }}>
+            <div
+              id="Define"
+              className="google-sub"
+              style={{ paddingBottom: "20%" }}
+            >
               <div className="text-1">
                 <p className="top-text">INTERACTION DESIGN ・ FALL 2018</p>
                 <h1>Clynx Dashboard</h1>

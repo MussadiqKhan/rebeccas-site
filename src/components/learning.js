@@ -1,5 +1,6 @@
 import React from "react";
 import hands from "../images/hands.png";
+import story from "../images/story.png";
 import mobile from "../images/mobilehand.png";
 import bg1 from "../images/bg1.png";
 import bg2 from "../images/bg2.png";
@@ -13,8 +14,8 @@ const Learning = () => {
           <div className="learning-1">
             <h2>Learnings</h2>
           </div>
-          <div className="learning-2">
-            <img src={hands} alt="hands" />
+          <div className="learning-2" style={{ marginTop: "25px" }}>
+            <img src={story} alt="hands" />
             <h3>Storytelling + presentation skill</h3>
             <p>
               In order to build upon my storytelling skills, I actively sought

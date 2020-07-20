@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Menu = (props) => {
-  const [menu, setMenu] = useState("");
+  const [menu, setMenu] = useState("Define");
 
   const onClick = (location) => {
     setMenu(location);

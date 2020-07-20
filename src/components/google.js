@@ -53,6 +53,8 @@ const Google = () => {
                   marginBottom: "10px",
                   fontFamily: "Galano Grotesque",
                   fontStyle: "normal",
+                  color: "#919191",
+                  fontWeight: "500",
                 }}
               >
                 MY ROLE
@@ -92,6 +94,8 @@ const Google = () => {
                   marginTop: "10px",
                   fontFamily: "Galano Grotesque",
                   fontStyle: "normal",
+                  color: "#919191",
+                  fontWeight: "500",
                 }}
               >
                 MY CONTRIBUTIONS
@@ -105,7 +109,17 @@ const Google = () => {
               </ul>
             </div>
             <div className="text-3">
-              <p style={{ marginBottom: "10px" }}>IMPACT</p>
+              <p
+                style={{
+                  marginBottom: "10px",
+                  fontFamily: "Galano Grotesque",
+                  fontStyle: "normal",
+                  color: "#919191",
+                  fontWeight: "500",
+                }}
+              >
+                IMPACT
+              </p>
               <ul>
                 <li>Build 2 projects in Q4</li>
                 <li>Launch 1 project in Q4</li>
