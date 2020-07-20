@@ -39,6 +39,7 @@ const Clynx = () => {
                     lineHeight: "170%",
                     letterSpacing: "0.03em",
                     fontSize: "14px",
+                    color: " rgba(255, 255, 255, 0.8)",
                   }}
                 >
                   Clynx is a healthcare technology startup I co-founded with
@@ -56,6 +57,7 @@ const Clynx = () => {
                     lineHeight: "170%",
                     letterSpacing: "0.03em",
                     fontSize: "14px",
+                    color: " rgba(255, 255, 255, 0.8)",
                   }}
                 >
                   I designed the <b>desktop MVP </b> for the dashboard
@@ -82,6 +84,8 @@ const Clynx = () => {
                     marginBottom: "10px",
                     fontFamily: "Galano Grotesque",
                     fontStyle: "normal",
+                    color: "#919191",
+                    fontWeight: "500",
                   }}
                 >
                   MY ROLE
@@ -89,7 +93,6 @@ const Clynx = () => {
                 <p
                   style={{
                     lineHeight: "170%",
-                    color: "rgba(255, 255, 255, 0.8)",
                     maxWidth: "270px",
                     fontFamily: "TT Norms",
                     fontWeight: "300",
@@ -97,6 +100,7 @@ const Clynx = () => {
                     lineHeight: "170%",
                     letterSpacing: "0.03em",
                     fontSize: "14px",
+                    color: " rgba(255, 255, 255, 0.8)",
                   }}
                 >
                   Solo UX Designer–discovery, user research, competitive audit,
@@ -105,10 +109,12 @@ const Clynx = () => {
 
                 <p
                   style={{
-                    marginBottom: "10px",
                     marginTop: "40px",
+                    marginBottom: "10px",
                     fontFamily: "Galano Grotesque",
                     fontStyle: "normal",
+                    color: "#919191",
+                    fontWeight: "500",
                   }}
                 >
                   MY CONTRIBUTIONS
@@ -138,6 +144,8 @@ const Clynx = () => {
                     marginBottom: "10px",
                     fontFamily: "Galano Grotesque",
                     fontStyle: "normal",
+                    color: "#919191",
+                    fontWeight: "500",
                   }}
                 >
                   TEAM
@@ -161,10 +169,12 @@ const Clynx = () => {
                 </p>
                 <p
                   style={{
-                    marginBottom: "10px",
                     marginTop: "60px",
+                    marginBottom: "10px",
                     fontFamily: "Galano Grotesque",
                     fontStyle: "normal",
+                    color: "#919191",
+                    fontWeight: "500",
                   }}
                 >
                   IMPACT
@@ -230,8 +240,7 @@ const Clynx = () => {
                 fontSize: "25px",
                 lineHeight: "140%",
                 fontFamily: "Galano Grotesque",
-                fontWeight: "200",
-                fontStyle: "normal",
+                fontWeight: "300",
               }}
             >
               In physical therapy, the recovery process requires home exercises
@@ -269,7 +278,7 @@ const Clynx = () => {
               color: "#242424",
               fontSize: "40px",
               fontFamily: "Galano Grotesque",
-              fontWeight: "200",
+              fontWeight: "300",
               lineHeight: "140%",
             }}
           >

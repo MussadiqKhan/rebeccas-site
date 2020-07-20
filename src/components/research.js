@@ -9,11 +9,11 @@ const Research = () => {
         <div className="research-1">
           <h3>Preliminary User Interviews</h3>
           <p>
-            The team conducted 22 user research interviews on physical therapy
-            patients, including both existing and past patients. Splitting our
-            team into two groups, we conducted 1:1 interviews in two major
-            cities in Portugal–Lisbon and Cascais. Below are our key findings
-            from the commonalities shared by interviewees:
+            The team conducted <b>22</b> user research interviews on physical
+            therapy patients, including both existing and past patients.
+            Splitting our team into two groups, we conducted 1:1 interviews in
+            two major cities in Portugal–Lisbon and Cascais. Below are our key
+            findings from the commonalities shared by interviewees:
           </p>
         </div>
         <div className="research-2">

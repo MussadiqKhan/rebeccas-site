@@ -34,7 +34,7 @@ const Challenge = () => {
           <div className="stat1">
             <img
               src={stat2}
-              style={{ marginBottom: "40px" }}
+              style={{ margin: "0 auto", marginBottom: "40px" }}
               width="190"
               alt="stats"
             />
