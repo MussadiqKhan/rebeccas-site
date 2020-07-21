@@ -1,7 +1,7 @@
 @font-face {
-  src: url(./Font/GalanoGrotesque-ExtraLight.ttf);
   src: url(./Font/GalanoGrotesque-Thin.ttf);
   font-family: "Galano Grotesque";
+  font-weight: 100;
 }
 @font-face {
   src: url(./Font/GalanoGrotesqueAlt-SemiBold.ttf);

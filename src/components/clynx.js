@@ -259,7 +259,7 @@ const Clynx = () => {
                 fontSize: "25px",
                 lineHeight: "140%",
                 fontFamily: "Galano Grotesque",
-                fontWeight: "200",
+                fontWeight: "100",
                 fontStyle: "normal",
               }}
             >
@@ -282,7 +282,7 @@ const Clynx = () => {
               color: "#242424",
               fontSize: "40px",
               fontFamily: "Galano Grotesque",
-              fontWeight: "300",
+              fontWeight: "100",
               lineHeight: "140%",
             }}
           >
