@@ -1,13 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import Scrollspy from "react-scrollspy";
 import { Link } from "react-scroll";
 
 const Menu = (props) => {
-  const [menu, setMenu] = useState("Define");
+  // const [menu, setMenu] = useState("Define");
 
-  const onClick = (location) => {
-    setMenu(location);
-  };
+  // const onClick = (location) => {
+  //   setMenu(location);
+  // };
 
   return (
     <div>
@@ -24,7 +24,7 @@ const Menu = (props) => {
               smooth={true}
               duration={1000}
               className="menus"
-              onClick={() => onClick(item)}
+              // onClick={() => onClick(item)}
             >
               {item}
             </Link>
