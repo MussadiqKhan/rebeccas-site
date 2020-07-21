@@ -260,7 +260,7 @@ const Clynx = () => {
               >
                 <b>Patients</b> who perform home exercises often perform
                 exercises incorrectly and over time lack motivation.{" "}
-                <b>Physical therapists</b>
+                <b>Physical therapists </b>
                 struggle to help patients who miss sessions and fail to perform
                 the exercise recommendations.
               </p>
