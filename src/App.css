@@ -614,6 +614,7 @@ hr {
   background-color: #4ba1ca !important ;
   height: 6px;
   width: 50%;
+  margin-bottom: 5px;
 }
 .interaction-text {
   display: flex;
