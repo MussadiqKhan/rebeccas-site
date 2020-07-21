@@ -101,7 +101,6 @@ const Clynx = () => {
                     fontFamily: "TT Norms",
                     fontWeight: "300",
                     fontStyle: "normal",
-                    lineHeight: "170%",
                     letterSpacing: "0.03em",
                     fontSize: "14px",
                     color: " rgba(255, 255, 255, 0.8)",
@@ -125,7 +124,6 @@ const Clynx = () => {
                 </p>
                 <p
                   style={{
-                    lineHeight: "170%",
                     marginBottom: "10px",
                     color: "rgba(255, 255, 255, 0.8)",
                     maxWidth: "270px",
@@ -163,7 +161,6 @@ const Clynx = () => {
                     fontFamily: "TT Norms",
                     fontWeight: "300",
                     fontStyle: "normal",
-                    lineHeight: "170%",
                     letterSpacing: "0.03em",
                     fontSize: "14px",
                   }}
@@ -192,7 +189,6 @@ const Clynx = () => {
                     fontFamily: "TT Norms",
                     fontWeight: "300",
                     fontStyle: "normal",
-                    lineHeight: "170%",
                     letterSpacing: "0.03em",
                     fontSize: "14px",
                   }}

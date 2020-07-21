@@ -61,7 +61,6 @@ const Google = () => {
               </p>
               <p
                 style={{
-                  lineHeight: "170%",
                   color: "rgba(255, 255, 255, 0.8)",
                   fontFamily: "TT Norms",
                   fontWeight: "300",
@@ -81,7 +80,6 @@ const Google = () => {
                   fontFamily: "TT Norms",
                   fontWeight: "300",
                   fontStyle: "normal",
-                  lineHeight: "170%",
                   letterSpacing: "0.03em",
                   fontSize: "14px",
                 }}
