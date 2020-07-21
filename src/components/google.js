@@ -8,7 +8,7 @@ import header from "../images/header.png";
 
 const Google = () => {
   return (
-    <div>
+    <div style={{ backgroundColor: "#E5E5E5" }}>
       <Header image={header} />
 
       <div className="google-main">
