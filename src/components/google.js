@@ -12,8 +12,8 @@ const Google = () => {
       <Header image={header} />
 
       <div className="google-main">
+        <Menu menu={["Overview", "Learnings"]} />
         <div className="container">
-          <Menu menu={["Overview", "Learning"]} />
           <div className="google-sub">
             <div className="text-1">
               <p className="top-text">INTERACTION DESIGN — SUMMER 2019</p>
@@ -28,6 +28,7 @@ const Google = () => {
                   lineHeight: "170%",
                   letterSpacing: "0.03em",
                   fontSize: "14px",
+                  marginTop: "40px",
                 }}
               >
                 In the summer of 2019, I was fortunate to be a User Experience

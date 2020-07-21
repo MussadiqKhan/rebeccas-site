@@ -58,7 +58,9 @@ const Research = () => {
         </div>
 
         <div className="research-4">
-          <p>
+          <p
+            style={{ maxWidth: "770px", textAlign: "center", margin: "0 auto" }}
+          >
             “I have no idea if therapy even helps...honestly, I don’t actually
             do the exercises at home, but I stopped because I did not notice any
             improvements.”

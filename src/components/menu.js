@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import AnchorLink from "react-anchor-link-smooth-scroll";
+import Scrollspy from "react-scrollspy";
+import { Link } from "react-scroll";
 
 const Menu = (props) => {
   const [menu, setMenu] = useState("Define");
@@ -10,19 +11,26 @@ const Menu = (props) => {
 
   return (
     <div>
-      <ul className="menu">
+      {" "}
+      <Scrollspy
+        className="menu"
+        items={props.menu}
+        currentClassName="is-current"
+      >
         {props.menu.map((item, index) => (
           <li key={index}>
-            <AnchorLink
-              href={`#` + item}
-              className={menu === item ? item : "menus"}
+            <Link
+              to={item}
+              smooth={true}
+              duration={1000}
+              className="menus"
               onClick={() => onClick(item)}
             >
               {item}
-            </AnchorLink>
+            </Link>
           </li>
         ))}
-      </ul>
+      </Scrollspy>
     </div>
   );
 };

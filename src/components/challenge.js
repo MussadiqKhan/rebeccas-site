@@ -5,7 +5,7 @@ import stat2 from "../images/stats2.png";
 const Challenge = () => {
   return (
     <div>
-      <div className="container">
+      <div id="Define" className="container">
         <div className="challenge-text">
           <h3>The Challenge</h3>
           <p>
@@ -18,6 +18,7 @@ const Challenge = () => {
         </div>
         <p
           style={{
+            margin: "0 auto",
             textAlign: "center",
             fontSize: "14px",
             lineHeight: "20",

@@ -8,9 +8,9 @@ import bg3 from "../images/bg3.png";
 
 const Learning = () => {
   return (
-    <div>
+    <div id="Learnings">
       <div className=" container">
-        <div className="learning" id="Learning">
+        <div className="learning">
           <div className="learning-1">
             <h2>Learnings</h2>
           </div>
@@ -48,9 +48,21 @@ const Learning = () => {
         </div>
       </div>
       <div className="image-gallery" style={{ marginTop: "190px" }}>
-        <img src={bg1} alt="imageone" style={{ width: "33.3%" }} />
-        <img src={bg2} alt="imageone" style={{ width: "33.3%" }} />
-        <img src={bg3} alt="imageone" style={{ width: "33.3%" }} />
+        <img
+          src={bg1}
+          alt="imageone"
+          style={{ width: "33.3%", height: "480px" }}
+        />
+        <img
+          src={bg2}
+          alt="imageone"
+          style={{ width: "33.3%", height: "480px" }}
+        />
+        <img
+          src={bg3}
+          alt="imageone"
+          style={{ width: "33.3%", height: "480px" }}
+        />
       </div>
     </div>
   );
