@@ -1,6 +1,6 @@
 import React from "react";
-import lot from "../images/lot.PNG";
-import wireframe from "../images/wireframe.PNG";
+import lot from "../images/lot.png";
+import wireframe from "../images/wirefram.png";
 import userflow from "../images/userflow.png";
 
 const Design = () => {

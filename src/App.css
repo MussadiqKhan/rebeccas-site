@@ -9,6 +9,11 @@
   font-weight: bold;
 }
 @font-face {
+  src: url(./Font/GalanoGrotesqueBold.otf);
+  font-family: "Galano Grotesque";
+  font-weight: 900;
+}
+@font-face {
   src: url(./Font/GalanoGrotesque-Light.ttf);
   font-family: "Galano Grotesque";
   font-weight: 300;
@@ -145,7 +150,7 @@ ul li {
   text-align: left;
   font-family: "Galano Grotesque";
   font-style: bold;
-  font-weight: bold;
+  font-weight: 900;
 }
 .text-1 button {
   font-weight: 500;
