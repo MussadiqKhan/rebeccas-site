@@ -11,7 +11,7 @@ import Future from "./future";
 
 const Clynx = () => {
   return (
-    <div style={{ backgroundColor: "#E5E5E5" }}>
+    <div style={{ backgroundColor: "#FAFAFA" }}>
       <div id="Define">
         {" "}
         <div style={{ position: "relative" }}>
@@ -169,7 +169,7 @@ const Clynx = () => {
                   </p>
                   <p
                     style={{
-                      marginTop: "60px",
+                      marginTop: "40px",
                       marginBottom: "10px",
                       fontFamily: "Galano Grotesque",
                       fontStyle: "normal",
@@ -239,7 +239,7 @@ const Clynx = () => {
                   fontSize: "25px",
                   lineHeight: "140%",
                   fontFamily: "Galano Grotesque",
-                  fontWeight: "300",
+                  fontWeight: "100",
                 }}
               >
                 In physical therapy, the recovery process requires home

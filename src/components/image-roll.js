@@ -9,10 +9,6 @@ const ImageGallery = () => {
   return (
     <div className="image-gallery">
       <img src={image1} alt="imageone" />
-      <img src={image2} alt="imageone" />
-      <img src={image3} alt="imageone" />
-      <img src={image4} alt="imageone" />
-      <img src={image5} alt="imageone" />
     </div>
   );
 };
