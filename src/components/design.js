@@ -22,7 +22,7 @@ const Design = () => {
             <img src={userflow} alt="userflow" />
           </div>
           <div className="design-2">
-            <h3>Wireframimg</h3>
+            <h3>Wireframing</h3>
             <p>
               I created high-fidelity functional wireframes with Adobe InDesign.
               Below is a snippet of the desktop experience for two user flows:

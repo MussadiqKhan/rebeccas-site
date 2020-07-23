@@ -27,7 +27,9 @@ const Future = () => {
           </p>
         </div>
       </div>
-      <div className="future-bg"></div>
+      <div className="container">
+        <div className="future-bg"></div>
+      </div>
     </div>
   );
 };

@@ -1,4 +1,5 @@
 import React from "react";
+import icon from "../images/icon.png";
 import email from "../images/email.svg";
 import linkedin from "../images/linkedin.png";
 
@@ -8,7 +9,12 @@ const Footer = (props) => {
       <footer>
         <div className="container">
           <div>
-            <h4>Next Project ></h4>
+            <h4>
+              NEXT PROJECT{" "}
+              <span>
+                <img src={icon} alt="icon" />
+              </span>
+            </h4>
             <a href={props.link}>
               {" "}
               <h2>{props.title}</h2>
