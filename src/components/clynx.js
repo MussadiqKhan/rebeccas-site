@@ -53,7 +53,7 @@ const Clynx = () => {
                   <p
                     className="main-text"
                     style={{
-                      marginTop: "48px",
+                      marginTop: "32px",
                       fontFamily: "TT Norms",
                       fontWeight: "300",
                       fontStyle: "normal",

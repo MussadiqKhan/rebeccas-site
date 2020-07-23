@@ -6,7 +6,7 @@ const Overview = () => {
       <div
         className="main-overview container"
         id="Overview"
-        style={{ marginTop: "40px", paddingTop: "40px" }}
+        style={{ marginTop: "0px", paddingTop: "0.1px" }}
       >
         <div className="overview-text">
           <h2>Overview</h2>
