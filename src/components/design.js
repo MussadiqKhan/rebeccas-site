@@ -5,7 +5,7 @@ import userflow from "../images/userflow.png";
 
 const Design = () => {
   return (
-    <div id="Design Process">
+    <div id="Design Process" style={{ marginTop: "40px", paddingTop: "40px" }}>
       <div className="container">
         <div className="design">
           <h3>Storyboarding</h3>

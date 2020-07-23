@@ -8,6 +8,7 @@ import Research from "./research";
 import Design from "./design";
 import Interaction from "./interaction";
 import Future from "./future";
+import Footer from "./footer";
 
 const Clynx = () => {
   return (
@@ -293,6 +294,7 @@ const Clynx = () => {
       <Design />
       <Interaction />
       <Future />
+      <Footer title="Google Design Project" />
     </div>
   );
 };

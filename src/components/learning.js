@@ -8,7 +8,7 @@ import bg3 from "../images/bg3.png";
 
 const Learning = () => {
   return (
-    <div id="Learnings">
+    <div id="Learnings" style={{ marginTop: "40px", paddingTop: "40px" }}>
       <div className=" container">
         <div className="learning">
           <div className="learning-1">

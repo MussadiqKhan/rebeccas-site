@@ -3,7 +3,11 @@ import React from "react";
 const Overview = () => {
   return (
     <div>
-      <div className="main-overview container" id="Overview">
+      <div
+        className="main-overview container"
+        id="Overview"
+        style={{ marginTop: "40px", paddingTop: "40px" }}
+      >
         <div className="overview-text">
           <h2>Overview</h2>
           <p>

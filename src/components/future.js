@@ -2,7 +2,7 @@ import React from "react";
 
 const Future = () => {
   return (
-    <div id="Reflection">
+    <div id="Reflection" style={{ marginTop: "40px", paddingTop: "40px" }}>
       <div className="container">
         <div className="future">
           <h3>Future Plans</h3>

@@ -4,7 +4,7 @@ import p2 from "../images/person2.png";
 
 const Research = () => {
   return (
-    <div id="Research">
+    <div id="Research" style={{ marginTop: "40px", paddingTop: "40px" }}>
       <div className="container">
         <div className="research-1">
           <h3>Preliminary User Interviews</h3>

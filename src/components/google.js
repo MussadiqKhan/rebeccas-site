@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./footer";
 import Menu from "./menu";
 import Header from "./header";
 import ImageGallery from "./image-roll";
@@ -8,7 +9,7 @@ import header from "../images/header.png";
 
 const Google = () => {
   return (
-    <div style={{ backgroundColor: "#E5E5E5" }}>
+    <div style={{ backgroundColor: "#FAFAFA" }}>
       <Header image={header} />
 
       <div className="google-main">
@@ -130,6 +131,7 @@ const Google = () => {
       <ImageGallery />
       <Overview />
       <Learning />
+      <Footer title="Clynx Dashboard" />
     </div>
   );
 };

@@ -5,7 +5,7 @@ import interaction3 from "../images/interaction3.png";
 
 const Interaction = () => {
   return (
-    <div id="Interaction">
+    <div id="Interaction" style={{ marginTop: "40px", paddingTop: "40px" }}>
       <div className="container">
         <div className="interaction">
           <div className="interaction1">

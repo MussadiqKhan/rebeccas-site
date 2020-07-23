@@ -68,7 +68,7 @@
   background-image: url("./images/bg-research.png");
   background-position: 100% !important;
   background-size: cover;
-  height: 332px;
+  height: 302px;
   background-repeat: no-repeat;
   width: 100% !important;
   max-width: 100%;
@@ -305,12 +305,16 @@ ul li {
   margin-top: 180px;
 }
 .learning-1 {
-  margin-right: 170px;
+  margin-right: 130px;
 }
 .learning-1 h2 {
   font-family: Galano Grotesque;
   font-style: normal;
   font-weight: 600;
+  font-size: 30px;
+  line-height: 140%;
+  letter-spacing: 0.03em;
+  color: #303030;
 }
 .learning-2 {
   margin-bottom: 20px;
@@ -666,6 +670,39 @@ hr {
   font-family: Galano Grotesque;
   font-style: normal;
   font-weight: 600;
+}
+footer {
+  width: 100%;
+  background: #1f1f1f;
+  height: 324px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+footer h2 {
+  font-family: Galano Grotesque;
+  font-style: normal;
+  font-size: 35px;
+  line-height: 140%;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+}
+footer h4 {
+  font-family: Galano Grotesque;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.social {
+  margin-top: 55px;
+  display: flex;
+  justify-content: flex-end;
 }
 @media screen and (max-width: 1100px) {
   .google-sub,
