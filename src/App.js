@@ -1,5 +1,4 @@
 import React from "react";
-import $ from "jquery";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Google from "./components/google";

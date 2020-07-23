@@ -12,8 +12,18 @@ const Footer = (props) => {
             <h2>{props.title}</h2>
           </div>
           <div className="social">
-            <img src={email} alt="email" style={{ marginRight: "25px" }} />
-            <img src={linkedin} alt="linkedin" />
+            <a href="mailto:rebeccayeap@berkeley.edu">
+              {" "}
+              <img
+                src={email}
+                alt="email"
+                style={{ marginRight: "25px" }}
+              />{" "}
+            </a>
+            <a href="https://www.linkedin.com/in/rebeccayeapberkeley/">
+              {" "}
+              <img src={linkedin} alt="linkedin" />
+            </a>
           </div>
         </div>
       </footer>
