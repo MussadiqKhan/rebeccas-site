@@ -121,23 +121,13 @@ const Clynx = () => {
                   >
                     MY CONTRIBUTIONS
                   </p>
-                  <p
-                    style={{
-                      marginBottom: "10px",
-                      color: "rgba(255, 255, 255, 0.8)",
-                      maxWidth: "270px",
-                      fontFamily: "TT Norms",
-                      fontWeight: "300",
-                      fontStyle: "normal",
-                      lineHeight: "170%",
-                      letterSpacing: "0.03em",
-                      fontSize: "14px",
-                    }}
-                  >
-                    Led user research with 20+ interviews Designed entire
-                    product’s visual interface Collaborated on product strategy
-                    & MVP pitch to investors
-                  </p>
+                  <ul>
+                    <li>Led user research with 20+ interviews</li>
+                    <li> Designed entire product’s visual interface</li>{" "}
+                    <li>
+                      Collaborated on product strategy & MVP pitch to investors
+                    </li>
+                  </ul>
                 </div>
                 <div className="text-3" style={{ marginTop: "260px" }}>
                   <p
@@ -151,23 +141,12 @@ const Clynx = () => {
                   >
                     TEAM
                   </p>
-                  <p
-                    style={{
-                      lineHeight: "170%",
-                      marginBottom: "10px",
-                      color: "rgba(255, 255, 255, 0.8)",
-                      maxWidth: "270px",
-                      fontFamily: "TT Norms",
-                      fontWeight: "300",
-                      fontStyle: "normal",
-                      letterSpacing: "0.03em",
-                      fontSize: "14px",
-                    }}
-                  >
-                    Joana Pinto, Product Manager Henrique Carvalho, Game
-                    Engineer Gonçalo Chambel, Game Engineer João Ramiro,
-                    Software Engineer
-                  </p>
+                  <ul>
+                    <li> Joana Pinto, Product Manager</li>{" "}
+                    <li>Henrique Carvalho, Game Engineer </li>{" "}
+                    <li> Gonçalo Chambel, Game Engineer</li>{" "}
+                    <li>João Ramiro, Software Engineer</li>
+                  </ul>
                   <p
                     style={{
                       marginTop: "40px",
@@ -180,23 +159,17 @@ const Clynx = () => {
                   >
                     IMPACT
                   </p>
-                  <p
-                    style={{
-                      lineHeight: "170%",
-                      marginBottom: "10px",
-                      color: "rgba(255, 255, 255, 0.8)",
-                      maxWidth: "270px",
-                      fontFamily: "TT Norms",
-                      fontWeight: "300",
-                      fontStyle: "normal",
-                      letterSpacing: "0.03em",
-                      fontSize: "14px",
-                    }}
-                  >
-                    Partnership with CUF, largest hospital chain in PT Grant of
-                    10,000 euros @ EITHealth InnoStars Award 2018 Finalist,
-                    prize of 30,000 euros @ GovTech Lisboa 2019
-                  </p>
+                  <ul>
+                    <li>
+                      {" "}
+                      Partnership with CUF, largest hospital chain in PT Grant
+                      of 10,000 euros @ EITHealth
+                    </li>{" "}
+                    <li>
+                      InnoStars Award 2018 Finalist, prize of 30,000 euros @
+                      GovTech Lisboa 2019
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
