@@ -328,7 +328,7 @@ ul li {
   justify-content: space-between;
   margin-left: 200px;
   margin-right: 100px;
-  margin-top: 180px;
+  margin-top: 100px;
 }
 .learning-1 {
   margin-right: 130px;
@@ -704,7 +704,7 @@ hr {
 footer {
   width: 100%;
   background: #1f1f1f;
-  height: 324px;
+  height: 344px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -725,13 +725,14 @@ footer h4 {
   font-size: 14px;
   line-height: 130%;
   letter-spacing: 0.04em;
+  opacity: 0.9;
   color: #ffffff;
   text-align: center;
   margin-bottom: 25px;
 }
 .social {
   margin-top: 55px;
-  margin-top: 120px;
+  margin-top: 30px;
   margin-right: 20px;
   display: flex;
   justify-content: flex-end;

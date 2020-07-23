@@ -159,7 +159,7 @@ const Clynx = () => {
                   >
                     IMPACT
                   </p>
-                  <ul>
+                  <ul style={{ maxWidth: "290px" }}>
                     <li>
                       {" "}
                       Partnership with CUF, largest hospital chain in PT Grant

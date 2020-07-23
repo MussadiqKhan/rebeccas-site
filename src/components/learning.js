@@ -2,9 +2,8 @@ import React from "react";
 import hands from "../images/hands.png";
 import story from "../images/story.png";
 import mobile from "../images/mobilehand.png";
-import bg1 from "../images/bg1.png";
-import bg2 from "../images/bg2.png";
-import bg3 from "../images/bg3.png";
+
+import bg3 from "../images/group1.png";
 
 const Learning = () => {
   return (
@@ -48,21 +47,7 @@ const Learning = () => {
         </div>
       </div>
       <div className="image-gallery" style={{ marginTop: "190px" }}>
-        <img
-          src={bg1}
-          alt="imageone"
-          style={{ width: "33.3%", height: "480px" }}
-        />
-        <img
-          src={bg2}
-          alt="imageone"
-          style={{ width: "33.3%", height: "480px" }}
-        />
-        <img
-          src={bg3}
-          alt="imageone"
-          style={{ width: "33.3%", height: "480px" }}
-        />
+        <img src={bg3} alt="imageone" />
       </div>
     </div>
   );

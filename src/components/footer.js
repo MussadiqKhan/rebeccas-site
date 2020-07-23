@@ -7,7 +7,7 @@ const Footer = (props) => {
   return (
     <div>
       <footer>
-        <div className="container">
+        <div className="container" style={{ marginTop: "80px" }}>
           <div>
             <h4>
               NEXT PROJECT{" "}
