@@ -61,7 +61,6 @@
 }
 .header {
   background: #1f1f1f;
-  padding-top: 57px;
 }
 .header-bg,
 .headers-bg {
@@ -72,6 +71,30 @@
   background-repeat: no-repeat;
   width: 100% !important;
   max-width: 100%;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end !important;
+  padding: 20px;
+  margin: auto;
+  color: white;
+  vertical-align: middle;
+}
+.links p {
+  display: flex;
+  vertical-align: middle;
+  padding: 0 20px;
+  font-family: Galano Grotesque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 130%;
+  /* or 18px */
+
+  letter-spacing: 0.04em;
+
+  color: #c6c6c6;
 }
 .menu {
   position: fixed;
