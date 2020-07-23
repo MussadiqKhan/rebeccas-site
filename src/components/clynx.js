@@ -294,7 +294,7 @@ const Clynx = () => {
       <Design />
       <Interaction />
       <Future />
-      <Footer title="Google Design Project" />
+      <Footer title="Google Design Project" link="/google" />
     </div>
   );
 };

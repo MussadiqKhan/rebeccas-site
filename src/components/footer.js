@@ -9,7 +9,10 @@ const Footer = (props) => {
         <div className="container">
           <div>
             <h4>Next Project ></h4>
-            <h2>{props.title}</h2>
+            <a href={props.link}>
+              {" "}
+              <h2>{props.title}</h2>
+            </a>
           </div>
           <div className="social">
             <a href="mailto:rebeccayeap@berkeley.edu">

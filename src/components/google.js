@@ -131,7 +131,7 @@ const Google = () => {
       <ImageGallery />
       <Overview />
       <Learning />
-      <Footer title="Clynx Dashboard" />
+      <Footer title="Clynx Dashboard" link="/clynx" />
     </div>
   );
 };
