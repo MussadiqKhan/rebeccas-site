@@ -182,7 +182,11 @@ const Clynx = () => {
           <div className="video-container">
             <iframe
               src="https://www.youtube.com/embed/mDjL9s_PjJQ?rel=0&showinfo=0"
-              frameBorder="0"
+              marginwidth="0"
+              marginheight="0"
+              hspace="0"
+              vspace="0"
+              frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
               title="video"
