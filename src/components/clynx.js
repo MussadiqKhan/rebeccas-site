@@ -195,7 +195,7 @@ const Clynx = () => {
         </div>
         <div className="background-athlete" id="Define">
           <div className="container">
-            <div className="bg-text" style={{ paddingTop: "180px" }}>
+            <div className="bg-text" style={{ paddingTop: "130px" }}>
               <p
                 style={{
                   maxWidth: "800px",

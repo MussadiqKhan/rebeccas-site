@@ -221,7 +221,7 @@ ul li {
   line-height: 170%;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.8);
-  list-style: disc;
+  list-style: "・ ";
 }
 .text-3 {
   margin-top: 300px;
@@ -242,7 +242,7 @@ ul li {
   line-height: 170%;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.8) !important;
-  list-style: disc;
+  list-style: "・  ";
 }
 .image-gallery {
   display: flex;
@@ -273,7 +273,7 @@ ul li {
   line-height: 140%;
   letter-spacing: 0.03em;
   color: #303030;
-  margin-top: 160px;
+  margin-top: 100px;
 }
 .overview-text p {
   font-size: 14px;
@@ -466,7 +466,7 @@ ul li {
   flex-direction: column;
   margin-left: 200px;
   margin-right: 100px;
-  margin-top: 100px;
+  margin-top: 40px;
 }
 .research-1 h3 {
   font-weight: 600;
@@ -500,7 +500,7 @@ ul li {
 .div-1 {
   position: relative;
   margin-top: -20%;
-  margin-left: 38%;
+  margin-left: 30%;
   background-color: #fafafa;
   z-index: 1;
 }
@@ -579,7 +579,7 @@ ul li {
   flex-direction: column;
   margin-left: 200px;
   margin-right: 100px;
-  margin-top: 100px;
+  margin-top: 40px;
 }
 .design-2 {
   display: flex;
@@ -645,8 +645,9 @@ ul li {
 }
 hr {
   background-color: #4ba1ca !important ;
-  height: 6px;
-  width: 50%;
+  height: 2px;
+  width: 27%;
+  border: none;
   margin-bottom: 5px;
 }
 .interaction-text {
@@ -677,7 +678,7 @@ hr {
   flex-direction: column;
   margin-left: 200px;
   margin-right: 100px;
-  margin-top: 100px;
+  margin-top: 40px;
 }
 .future p {
   font-weight: 300;
