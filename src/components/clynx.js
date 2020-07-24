@@ -13,7 +13,7 @@ import Footer from "./footer";
 const Clynx = () => {
   return (
     <div style={{ backgroundColor: "#FAFAFA" }}>
-      <div id="Define">
+      <div>
         {" "}
         <div style={{ position: "relative" }}>
           <Header image={mac} />
@@ -189,7 +189,7 @@ const Clynx = () => {
             ></iframe>
           </div>
         </div>
-        <div className="background-athlete">
+        <div className="background-athlete" id="Define">
           <div className="container">
             <div className="bg-text" style={{ paddingTop: "180px" }}>
               <p
