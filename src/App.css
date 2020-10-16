@@ -78,7 +78,7 @@
   justify-content: flex-end !important;
   padding: 20px;
   margin: auto;
-  color: white;
+  color: white !important;
   vertical-align: middle;
 }
 .links p {
